@@ -1,0 +1,19 @@
+div.password-box {
+    display: flex; 
+    align-items: center; 
+    border: solid 1px #9b9b9b; 
+    background-color: #fff; 
+    border-radius: 6px;
+}
+label .bi {
+    font-size: 25px;
+}
+.password-box .bi {
+    font-size: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.bi::before {
+    color: #797979;
+}
